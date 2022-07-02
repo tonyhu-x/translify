@@ -33,6 +33,8 @@ setup(
     license="Attribution-NonCommercial-ShareAlike 4.0 International",
     classifiers=[
         "Development Status :: 3 - Alpha",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Education",
         "Intended Audience :: End Users/Desktop",
         "License :: Free for non-commercial use",
         "Programming Language :: Python :: 3 :: Only",
