@@ -1,3 +1,3 @@
 # translify
 
-translify is a tool that interprets a given piece of text from a language other than English and then summarizes it in English.
+translify is a utility that interprets text in a language and then summarizes it in another language.
