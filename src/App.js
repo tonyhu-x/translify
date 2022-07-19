@@ -1,10 +1,7 @@
-import TransBox from './TransBox';
+import TransContainer from "./TransContainer";
 
 export default function App() {
   return (
-    <>
-      <TransBox></TransBox>
-      <TransBox out></TransBox>
-    </>
+    <TransContainer />
   );
 }
