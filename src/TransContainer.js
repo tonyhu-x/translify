@@ -11,7 +11,6 @@ export default function TransContainer() {
     <>
       <TransBox text={text} onChange={onChange}/>
       <TransBox out text={text} onChange={onChange}/>
-      <p>{text}</p>
     </>
   );
 }
