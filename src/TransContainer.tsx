@@ -3,7 +3,7 @@ import TransBox from './TransBox';
 
 export default function TransContainer() {
   const [text, setText] = useState("hello");
-  const onChange = (newText) => {
+  const onChange = (newText: string) => {
     setText(newText);
   };
   

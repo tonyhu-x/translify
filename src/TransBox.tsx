@@ -1,9 +1,15 @@
-export default function TransBox(props) {
+type TransBoxProps = {
+  text: string;
+  out?: boolean;
+  onChange: (arg: string) => void;
+};
+
+export default function TransBox(props: TransBoxProps) {
   const text = props.text;
   const out = props.out;
   const onChange = props.onChange;
 
-  const onTextChange = (e) => {
+  const onTextChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     onChange(e.target.value);
   };
   
